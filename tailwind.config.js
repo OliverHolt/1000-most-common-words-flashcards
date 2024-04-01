@@ -55,6 +55,15 @@ module.exports = {
           "100%": { backgroundPosition: "0% 50%" },
         },
       },
+      boxShadow: {
+        custom: '0 0 5px 2px rgba(0, 0, 0, .3)'
+      },
+      transform: { 
+        'rotateY-180': 'rotateY(180deg)',
+      },
+      gridTemplateColumns: {
+        'fill-200': 'repeat(auto-fill, minmax(200px, 1fr))',
+      }
     },
   },
   plugins: [require("daisyui")],

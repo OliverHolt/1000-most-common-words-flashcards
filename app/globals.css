@@ -5,6 +5,10 @@
 html,
 body {
   scroll-behavior: smooth !important;
+  background: radial-gradient(ellipse at center, #192d38 0, #211f2f 100%);
+  color: #fff;
+  font-weight: 300;
+  height: 100vh;
 }
 
 /* It makes the HTML progress bar filling smooth when value change. */
@@ -19,4 +23,44 @@ progress::-webkit-progress-value {
   .btn {
     @apply !capitalize;
   }
+}
+
+@layer utilities {
+  .rotateY-180 {
+    transform: rotateY(180deg);
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .transform-preserve-3d{
+    transform-style: preserve-3d;
+  }
+  .size-250{
+    height: 250px;
+    width: 250px;
+  }
+  .text-custom-blue{
+    color: #211f2f;
+  }
+}
+
+/* Waving Github cat */
+@keyframes octocat-wave {
+  0%, 100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  20%, 60% {
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+
+.github-corner:hover .octo-arm {
+  -webkit-animation: octocat-wave .56s ease-in-out;
+  animation: octocat-wave .56s ease-in-out;
 }
