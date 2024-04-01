@@ -7,7 +7,7 @@ const config = {
   appDescription:
     "Learn the 1000 most common words in your target language with our flashcards!",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "shipfa.st",
+  domainName: "1000-common-words-flashcards.netlify.app",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
