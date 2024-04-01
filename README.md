@@ -1,4 +1,4 @@
-##Welcome to my little side project!##
+## Welcome to my little side project! ##
 
 After watching this tiktok: https://vm.tiktok.com/ZGeagmeHm/
 
