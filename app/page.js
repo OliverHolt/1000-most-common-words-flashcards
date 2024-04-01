@@ -53,7 +53,7 @@ export default function Page() {
             </section>
         )}
         <section className="flex flex-col items-center justify-center text-center gap-4 px-8 py-8">
-          <p>Made with <span className="text-red-600">&hearts;</span> by <a href="https://ko-fi.com/ollieholt" target='_blank' className="hover:underline">OllieHolt</a></p>
+          <p>Made with &#10084;&#65039; by <a href="https://ko-fi.com/ollieholt" target='_blank' className="hover:underline">OllieHolt</a></p>
         </section>
       </main>
     </>
